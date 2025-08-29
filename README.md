@@ -1,4 +1,4 @@
-ShadowFox Data Science Internship – June 2025
+ShadowFox Data Science Internship – August 2025
 
 This repository contains the work completed during my 1-month virtual Data Science Internship with ShadowFox. The internship focused on strengthening core skills in Python programming, data analysis, and visualization.
 
