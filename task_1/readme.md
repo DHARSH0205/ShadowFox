@@ -1,98 +1,83 @@
-Task 2 - Sentiment Analysis
-1. Problem Statement
+# Task 2 - Sentiment Analysis
 
-In today’s digital era, social media platforms like X (formerly Twitter) generate vast amounts of text data where individuals express their opinions freely. Analyzing this content helps in understanding public emotions and opinions. This project focuses on performing sentiment analysis on tweets using VADER (Valence Aware Dictionary for Sentiment Reasoning) to classify them into Positive, Negative, or Neutral sentiments.
+## 📌 Sentiment Analysis Report
 
-2. Overview
+### 1. Problem Statement
+In today’s digital world, social media platforms generate vast amounts of user opinions daily. Understanding these opinions is crucial for businesses, policymakers, and researchers to gauge public perception.  
+This project focuses on performing sentiment analysis on tweets to categorize them into **Positive, Negative, or Neutral sentiments** and identify the most frequent words associated with each sentiment.
 
-The goal of this project is to:
+---
 
-Analyze tweets and categorize them into sentiment classes.
+### 2. Overview
+The objective of this project is to analyze tweets, classify them based on sentiment, and visualize the common keywords using word clouds and statistical techniques.  
+By doing so, we can uncover insights about **public opinion** and identify patterns in online discussions.
 
-Visualize the overall sentiment distribution.
+---
 
-Identify frequently used words associated with each sentiment category.
+### 3. Tech Stack & Tools Used
 
-By doing so, we uncover trends in public perception and highlight key emotional triggers in online discussions.
+#### 🔹 Programming Language
+- Python  
 
-3. Tech Stack / Tools Used
-Python Libraries
+#### 🔹 Libraries & Frameworks
+- **pandas** → Data preprocessing and cleaning  
+- **matplotlib** → Visualization of sentiment distribution  
+- **WordCloud** → Generating word clouds for each sentiment  
+- **VADER (Valence Aware Dictionary for Sentiment Reasoning)** → Sentiment classification  
 
-pandas → Data preprocessing and handling the dataset
+#### 🔹 Dataset
+- CSV file containing tweets and sentiment labels  
 
-matplotlib → Visualization of sentiment distribution
+---
 
-WordCloud → Generate word clouds for Positive, Negative, and Neutral sentiments
+### 4. Methodology
+1. **Data Cleaning** → Removed missing values and ensured only valid text entries were analyzed.  
+2. **Sentiment Classification** → Used VADER Sentiment Analyzer to classify text into *Positive, Negative, and Neutral* categories.  
+3. **Visualization** →  
+   - Plotted distribution of sentiments.  
+   - Generated word clouds to represent frequent words in each sentiment category.  
+4. **Top Word Extraction** → Identified top 10 words for each sentiment.  
 
-VADER (NLTK SentimentIntensityAnalyzer) → Sentiment classification of tweets
+---
 
-Dataset
+### 5. Results & Insights
+- Most tweets were **Positive**, showing an overall optimistic sentiment trend.  
+- **Positive tweets** focused on words like *love, great, good, thanks*.  
+- **Negative tweets** were dominated by words such as *bad, hate, problem, worst*.  
+- **Neutral tweets** contained general words with less emotional intensity.  
+- Word clouds visually confirmed the dominance of sentiment-driven keywords.  
 
-CSV file (x_sentiment_scored.csv) containing tweets and their sentiment scores
+---
 
-4. Methodology
+### 6. Applications
+- **Business** → Analyzing customer feedback and product reviews.  
+- **Politics** → Understanding public opinion on policies.  
+- **Healthcare** → Monitoring mental health trends in social media discussions.  
+- **Marketing** → Identifying customer preferences and brand perception.  
 
-Data Cleaning
+---
 
-Removed missing values
+### 7. Conclusion
+This project successfully demonstrated how sentiment analysis can extract meaningful insights from social media data.  
+The combination of **VADER sentiment analysis, visualization techniques, and word frequency analysis** provided a clear understanding of the dataset.  
 
-Kept only valid tweet text entries
+Overall, the analysis revealed that **Positive sentiments outweighed Negative ones**, indicating a generally favorable online environment in the dataset.
 
-Sentiment Classification
+---
 
-Applied VADER SentimentIntensityAnalyzer
+## ❓ Questions and Answers
 
-Classified each tweet into Positive, Negative, Neutral
+**Q1. What categories of sentiments were analyzed?**  
+➡️ Positive, Negative, and Neutral.  
 
-Visualization
+**Q2. Which sentiment had the highest number of tweets?**  
+➡️ Positive tweets were the majority, followed by Neutral, then Negative.  
 
-Plotted sentiment distribution using matplotlib
+**Q3. What are the most common words used in positive tweets?**  
+➡️ Words like *good, love, great, happy, thanks*.  
 
-Generated word clouds for each sentiment category
+**Q4. How balanced is the dataset in terms of sentiment distribution?**  
+➡️ Slightly imbalanced → Positive tweets dominate, Neutral in the middle, and Negative the least.  
 
-Word Frequency Analysis
-
-Extracted top words for each sentiment (Positive, Negative, Neutral)
-
-5. Results & Insights
-
-Majority of tweets were Positive, indicating an optimistic trend.
-
-Positive tweets → common words included love, good, happy, thanks
-
-Negative tweets → common words included bad, hate, worst, sad
-
-Neutral tweets → contained general non-emotional words.
-
-Word clouds confirmed the dominance of emotionally charged words in Positive and Negative tweets.
-
-6. Applications
-
-Business → Analyzing customer reviews & product feedback
-
-Politics → Understanding public opinion on policies
-
-Healthcare → Tracking mental health-related discussions
-
-Marketing → Measuring customer sentiment and brand perception
-
-7. Conclusion
-
-This project demonstrated how VADER Sentiment Analysis can effectively classify and analyze sentiments in tweets. With visualizations and word frequency analysis, we gained a clearer understanding of public opinion. Overall, the dataset showed a higher proportion of positive sentiments, reflecting a generally favorable discussion trend.
-
-Questions & Answers
-
-Q1. What categories of sentiments were analyzed?
-→ Positive, Negative, Neutral
-
-Q2. Which sentiment had the highest number of tweets?
-→ Positive sentiment dominated the dataset
-
-Q3. What are the most common words in positive tweets?
-→ love, great, good, happy, thanks
-
-Q4. What are the most common words in negative tweets?
-→ bad, hate, worst, problem, sad
-
-Q5. How balanced was the dataset?
-→ Slightly imbalanced, with more Positive tweets compared to Neutral and Negative.
+**Q5. What are the most common words used in negative tweets?**  
+➡️ Words like *bad, hate, worst, sad, problem*.  
