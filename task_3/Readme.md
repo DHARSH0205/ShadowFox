@@ -4,8 +4,9 @@ This project focuses on analyzing a **Car Sales Dataset** to uncover patterns, t
 
 ---
 
-## 📁 Dataset Information
-The dataset contains information about car sales, manufacturers, price, sales figures, resale value, and other attributes that influence the automobile market.
+📁 Dataset Information  
+The dataset, sourced from [Kaggle](https://www.kaggle.com/datasets/gagandeep16/car-sales), contains information about car sales, manufacturers, price, sales figures, resale value, and other attributes that influence the automobile market.
+
 
 ---
 
