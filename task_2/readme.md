@@ -21,8 +21,7 @@ By doing so, we can uncover insights about **public opinion** and identify patte
 
 #### 🔹 Libraries & Frameworks
 - **pandas** → Data preprocessing and cleaning  
-- **matplotlib** → Visualization of sentiment distribution  
-- **WordCloud** → Generating word clouds for each sentiment  
+- **matplotlib** → Visualization of sentiment distribution   
 - **VADER (Valence Aware Dictionary for Sentiment Reasoning)** → Sentiment classification  
 
 #### 🔹 Dataset
@@ -35,9 +34,6 @@ By doing so, we can uncover insights about **public opinion** and identify patte
 2. **Sentiment Classification** → Used VADER Sentiment Analyzer to classify text into *Positive, Negative, and Neutral* categories.  
 3. **Visualization** →  
    - Plotted distribution of sentiments.  
-   - Generated word clouds to represent frequent words in each sentiment category.  
-4. **Top Word Extraction** → Identified top 10 words for each sentiment.  
-
 ---
 
 ### 5. Results & Insights
@@ -45,21 +41,11 @@ By doing so, we can uncover insights about **public opinion** and identify patte
 - **Positive tweets** focused on words like *love, great, good, thanks*.  
 - **Negative tweets** were dominated by words such as *bad, hate, problem, worst*.  
 - **Neutral tweets** contained general words with less emotional intensity.  
-- Word clouds visually confirmed the dominance of sentiment-driven keywords.  
-
 ---
 
-### 6. Applications
-- **Business** → Analyzing customer feedback and product reviews.  
-- **Politics** → Understanding public opinion on policies.  
-- **Healthcare** → Monitoring mental health trends in social media discussions.  
-- **Marketing** → Identifying customer preferences and brand perception.  
-
----
-
-### 7. Conclusion
+### 6. Conclusion
 This project successfully demonstrated how sentiment analysis can extract meaningful insights from social media data.  
-The combination of **VADER sentiment analysis, visualization techniques, and word frequency analysis** provided a clear understanding of the dataset.  
+The combination of **VADER sentiment analysis, visualization techniques** provided a clear understanding of the dataset.  
 
 Overall, the analysis revealed that **Positive sentiments outweighed Negative ones**, indicating a generally favorable online environment in the dataset.
 
